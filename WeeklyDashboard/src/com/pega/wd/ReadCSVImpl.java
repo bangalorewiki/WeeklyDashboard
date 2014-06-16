@@ -11,14 +11,14 @@ public class ReadCSVImpl extends ReadCSV {
 		
 		try{
 		
-		CsvReader csv=new CsvReader(file);
+		CsvReader csv=new CsvReader(file);   //creating csvreader object
 		
-		}catch (FileNotFoundException e) {
+		}catch (FileNotFoundException e) {  //catching exceptions
 			e.printStackTrace();
 		}catch (IOException e) {
 			e.printStackTrace();
 		}	
-		return null;
+		return file;
 	}
 	
 	public static void main(String[] args) {
