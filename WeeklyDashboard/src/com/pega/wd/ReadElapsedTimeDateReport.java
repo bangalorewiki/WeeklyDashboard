@@ -5,6 +5,22 @@ import java.util.ArrayList;
 
 public class ReadElapsedTimeDateReport extends ReadCSVImpl{
 
+	String ticketNo;
+	String account;
+	String currentStatus;
+	String submittedDate;
+	String closureDate;
+	String overallPending;
+	String timePendingAssignment;
+	String timePendingCustomerResponse;
+	String timePendingGCSFulfillment;
+	String pendingCustomerApproval;
+	String pendingCloudApproval;
+	String source;
+	String techCategory;
+	String techSubCategory;
+	String action;
+	
 	Object readFile(File file) {
 		
 		return null;
